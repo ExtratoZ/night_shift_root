@@ -1,0 +1,177 @@
+/* GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+}
+
+body {
+    background-color: rgba(147, 204, 198, 0.2);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container { 
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* CABEÇALHO */
+header h1 {
+    font-family: "Orbitron", sans-serif;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+header {
+    background-color: #1a1f1e;
+    height: 80px;
+    padding-top: 16px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color: #fff;
+    font-family: "Orbitron", sans-serif;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+nav li a:hover {
+    color: #6cbdb5;
+}
+
+/* AREA SOBRE */
+
+#sobre {
+    padding: 14px 0;
+}
+
+#sobre img {
+    width: 300px;
+    border-radius: 200px;
+    border: 1px solid #1a1f1e;
+    box-shadow: -16px 16px 2px 2px #1a1f1e;
+}
+
+section .container {
+    align-items: flex-start;
+    display: flex;
+}
+
+.conteudo-sobre {
+    margin: auto;
+    margin-left: 12px;
+    width: 80%;
+}
+
+.conteudo-sobre p {
+    padding-bottom: 24px;
+}
+
+.container h2 {
+    color: #1a1f1e;
+    font-size: 24px;
+    padding-bottom: 22px;
+}
+
+.container p {
+    color: #1a1f1e;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container i {
+    width: 60px;
+}
+
+/* AREA CONTATO */
+.formulario input,
+.formulario button,
+.formulario textarea {
+    display: block;
+    margin: 8px 0;
+}
+
+.formulario input,
+.formulario textarea {
+    border: none;
+    border-left: 2px solid #1a1f1e;
+    border-bottom: 1px solid #1a1f1e;
+    padding: 4px;
+    background-color: rgba(147, 204, 198, 0.1);
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+.formulario input {
+    width: 240px;
+}
+
+.formulario textarea {
+    resize: none;
+}
+
+.formulario button {
+    background-color: #1a1f1e;
+    border: none;
+    color: #fff;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.formulario button:hover {
+    background-color: #6cbdb5;
+    color: #1a1f1e;
+}
+
+#contato {
+    background-color: rgba(147, 204, 198, 0.4);
+}
+
+#contato .container {
+    padding: 12px 0;
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* AREA RODAPE */
+
+#rodape {
+    background-color: #1a1f1e;
+    color: #fff;
+}
+
+.social a {
+    color: #fff;
+}
+
+.social h2 {
+    color: #fff;
+}
+
+#rodape .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
